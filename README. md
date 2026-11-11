@@ -1,0 +1,83 @@
+
+# Hostel Renting System
+
+## Overview
+
+Finding suitable hostel accommodation can be difficult for students and other individuals, especially when they are new to a city. The Hostel Renting System is a proposed system that will help users search for hostels, view available rooms, check rent details, and submit booking requests.
+
+The main purpose of this system is to make hostel searching and renting easier, faster, and more convenient. It will also help hostel owners manage their hostel information and booking requests.
+
+## Scope
+
+**In Scope:**
+- Users can search for available hostels based on location.
+- Users can view hostel details, room availability, facilities, and rent.
+- Users can submit booking requests for available rooms.
+- Hostel owners can manage hostel information and room details.
+
+**Out of Scope:**
+- Online fee and rent payment processing.
+- Management of university admission and academic records.
+- Hostel transportation services.
+
+## Stakeholders
+
+- **Student/Tenant:** Wants to find suitable hostels, check room availability, compare rent, and book accommodation.
+- **Hostel Owner/Manager:** Wants to add hostel details, manage rooms, update rent information, and handle booking requests.
+- **System Administrator:** Wants to manage user accounts, monitor system activities, and maintain the system.
+- **Parents/Guardians:** Want to check hostel details, facilities, location, and rent before selecting accommodation for their children.
+
+## Functional Requirements
+
+- **FR-01:** The system shall allow users to search for hostels based on city, location, and rent range.
+- **FR-02:** The system shall display hostel details, including room availability, rent, facilities, and address.
+- **FR-03:** The system shall allow students to submit booking requests for available hostel rooms.
+- **FR-04:** The system shall allow hostel owners to add, update, and delete hostel information.
+
+## Nonfunctional Requirements
+
+- **NFR-01:** The system shall display hostel search results within 3 seconds in at least 95 out of 100 trials when tested with 100 hostel records on an agreed test device.
+- **NFR-02:** The system shall require users to log in before accessing personal booking information or performing account-related actions.
+- **NFR-03:** The system shall provide a user-friendly interface that allows users to complete the hostel search process within 5 minutes during usability testing.
+
+## Acceptance Criteria
+
+- **FR-01:** Given a user enters Lahore as the city and selects a rent range, the system displays hostels matching the selected location and rent range.
+- **FR-02:** When a user selects a hostel, the system displays its rent, available rooms, facilities, and complete address.
+- **FR-03:** Given a student selects an available room and submits a booking request, the system saves the request and displays a booking confirmation.
+- **FR-04:** When a hostel owner updates hostel information, the system saves the changes and displays the updated information.
+
+## Assumptions and Open Questions
+
+- **Assumption A-01:** It is assumed that hostel owners will provide accurate hostel information, room availability, and rent details.
+- **Assumption A-02:** It is assumed that users will have access to an internet connection to use the system.
+- **Question Q-01:** Should students be allowed to cancel their booking requests?
+- **Question Q-02:** Should hostel owners approve or reject booking requests through the system?
+- **Question Q-03:** Should users be able to upload reviews and ratings for hostels?
+
+## Project Status and Viewing
+
+This project is currently in the requirements and documentation phase. The system is proposed for development.
+
+To view the project documentation:
+1. Clone or download the project repository from GitHub.
+2. Open the project folder.
+3. Locate the README.md file.
+4. Open it in Notepad, VS Code, or view it directly on GitHub.
+
+## Author
+
+**Name:** Muhammad Husnain  
+**Roll Number:** BSEF25A527  
+**Project Name:** Hostel Renting System
+
+## Contributing
+
+Contributions to this project are welcome.
+
+1. Create a new documentation or feature branch.
+2. Make the required changes to the project files.
+3. Review the changes to ensure correctness.
+4. Commit the changes with a meaningful commit message.
+5. Push the branch to GitHub.
+6. Create a pull request for review and approval.
